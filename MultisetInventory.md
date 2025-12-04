@@ -20,6 +20,10 @@
 
 ### Because my inventory needs to be expandable and retractable i feel that a Sequence set would be easist to modify the size of throughout the game, using A sequence would lower the development time of my project by a signifigant amount
 
-### This Sequence will be used and interacted by the user, The in
+### This Sequence will be used and interacted by the user, The inentory system will be connected to the player character as seen in this diagram
+
+![](inventory_user_relationship.png)
+
+
 
 
