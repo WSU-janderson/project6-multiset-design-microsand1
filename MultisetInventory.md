@@ -107,6 +107,12 @@ else item.getReference()==legendary
 
 ![](UML.png)
 
+![](user.png)
+---
+## Trade off
 
+https://surferjeff.medium.com/why-i-avoid-using-hash-tables-3bf5734fafb6
+
+https://www.geeksforgeeks.org/dsa/applications-advantages-and-disadvantages-of-binary-search-tree/
 
 
