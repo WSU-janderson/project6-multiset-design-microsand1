@@ -119,12 +119,8 @@ else item.getReference()==legendary
 
 ### A Hashtable would also have the potential for a longer insert as my current implementation is to append it to the end it would also b harder to madify the size
 
-> Quote here.
->
-> -- <cite>Benjamin Franklin</cite>
-
 https://surferjeff.medium.com/why-i-avoid-using-hash-tables-3bf5734fafb6
 
-https://www.geeksforgeeks.org/dsa/applications-advantages-and-disadvantages-of-binary-search-tree/
+https://dl.acm.org/doi/abs/10.1145/42404.42410https://www.geeksforgeeks.org/dsa/applications-advantages-and-disadvantages-of-binary-search-tree/
 
-https://dl.acm.org/doi/abs/10.1145/320613.320619
+[https://dl.acm.org/doi/abs/10.1145/320613.320619](https://dl.acm.org/doi/abs/10.1145/42404.42410)
