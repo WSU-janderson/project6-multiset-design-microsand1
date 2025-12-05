@@ -80,4 +80,27 @@
 
 ### the implementation would be to iterate through the sequence and log all the items then iterate through the other list and print only items that dont appear
 ---
+##  Extension feature
+
+### there will be a getReference() method that returns the item ID's related information such as stats rarity and cost
+
+### the game will feature a method called scrap() scrap will take one item and based on its rarity it will give you armor value here is a general since of how it would be implemented in psuedo code
+
+scrap(ID item){
+if item.getReference()==common
+  item.delete()
+  return 10
+else if item.getReference()==uncommon
+  item.delete()
+  return 20
+else if item.getReference()==rare
+  item.delete()
+  return 30
+else item.getReference()==legendary
+  item.delete()
+  return 50
+}
+
+### this would allow easy accsess to modifying armor this would run in the character class
+---
 ## 
