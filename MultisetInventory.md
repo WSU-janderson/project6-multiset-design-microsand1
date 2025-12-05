@@ -3,7 +3,9 @@
 ---
 ## Introduction to the setting
 
-### The context for this inventory design is related to the game, the game this inventory will be implemented into is Top down Traditional roguelike. the setting will be a military complex set in the far future. the player character is a fully atonamized mech built to scale the complex. my inventory will need multiple features such as:
+### The context for this inventory design is related to the game, the game this inventory will be implemented into is Top down Traditional roguelike. the setting will be a military complex set in the far future. the player character is a automatic mech built to scale the complex.
+
+### my inventory will need multiple features such as:
 
 * ### multiple items
 * ### same name items
@@ -12,13 +14,17 @@
 * ### sorting
 * ### search function
 
-### therefore my design needs to store items with the same name with information such as item amount and needs to be expandable and retractable, for this reaon i'll be using **Sequence\<string>\**
+### therefore my design needs to store items with the same name with information such as item amount and needs to be expandable and retractable.
+
+###for this reaon i'll be using **Sequence\<string>\**
 ---
 ## Why Sequence
 
 ### The reason I am using Sequence is for an easier faster implementation within the project
 
-### Because my inventory needs to be expandable and retractable i feel that a Sequence set would be easist to modify the size of throughout the game, using A sequence would lower the development time of my project by a signifigant amount
+### Because my inventory needs to be expandable and retractable i feel that a Sequence set would be easist to modify the size of throughout the game.
+
+### using A sequence would lower the development time of my project by a signifigant amount
 
 ### This Sequence will be used and interacted by the user, The inentory system will be connected to the player character as seen in this diagram
 
@@ -131,16 +137,22 @@ else item.getReference()==legendary
 
 ### my hashtable would be a random index hashtable as I have made one before
 
-
+### I would probe the hash Table using the index when searching for an item or deleting an item
 
 ### one major problem is the list would need new indexing often with how my inventory system is able to increase and decrease its max size
 
-### overall a hashtable would be a poor fit for the inventory i plan to design
+### overall a hashtable would be a poor fit for the inventory I plan to design
+---
+## Conclusion
 
+### in conclusion using a sequence for my inventrory system would be the best fit for my project.
 
+### this is due to the amount of size modifications i need for the list while still restrcting the size for the user
 
-https://surferjeff.medium.com/why-i-avoid-using-hash-tables-3bf5734fafb6
+### the inventory also fits the setting of an everchanging automaton well, which is my main goal for the system
+---
+## Citations
 
-https://dl.acm.org/doi/abs/10.1145/42404.42410https://www.geeksforgeeks.org/dsa/applications-advantages-and-disadvantages-of-binary-search-tree/
+Rennie, J. (n.d.). Why I avoid using hash tables. most of the programming languages I… | by Jeffrey Rennie | Medium. https://surferjeff.medium.com/why-i-avoid-using-hash-tables-3bf5734fafb6 
 
-[https://dl.acm.org/doi/abs/10.1145/320613.320619](https://dl.acm.org/doi/abs/10.1145/42404.42410)
+Larson, P. (n.d.). Dynamic hash tables | communications of the ACM. Association for Computing Machinery, Digital Library. https://dl.acm.org/doi/abs/10.1145/42404.42410 
