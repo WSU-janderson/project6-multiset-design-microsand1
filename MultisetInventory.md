@@ -130,7 +130,7 @@ this would also play into the theme of an ever changing inventory.
 
 I could have chosen to use a hashTable for my multiset which I feel would be more appropiate than a Binary Search Tree.
 
-A hashtable would have had a faster search and delete function, but the rade off would be development time
+A hashtable would have had a faster search and delete function with the same space complexity (kurtis), but the rade off would be development time
 
 A Hashtable would also not be simple to implement the sort function or other functions and methods.
 
