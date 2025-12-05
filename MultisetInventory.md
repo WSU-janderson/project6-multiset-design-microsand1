@@ -16,7 +16,7 @@ my inventory will need multiple features such as:
 
 therefore, my design needs to store items with the same name with information such as item amount and needs to be expandable and retractable.
 
-for this reason, i'll be using **Sequence\<string>\**
+for this reason, i'll be using **Sequence\<string>**
 
 ---
 ## Why Sequence
