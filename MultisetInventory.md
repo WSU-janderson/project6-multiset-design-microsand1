@@ -103,4 +103,10 @@ else item.getReference()==legendary
 
 ### this would allow easy accsess to modifying armor this would run in the character class
 ---
-## 
+## UML
+
+![](UML.png)
+
+
+
+
