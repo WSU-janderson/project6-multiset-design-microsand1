@@ -14,9 +14,10 @@ my inventory will need multiple features such as:
 * sorting
 * search function
 
-therefore my design needs to store items with the same name with information such as item amount and needs to be expandable and retractable.
+therefore, my design needs to store items with the same name with information such as item amount and needs to be expandable and retractable.
 
-for this reason i'll be using **Sequence\<string>\**
+for this reason, i'll be using **Sequence\<string>\**
+
 ---
 ## Why Sequence
 
@@ -31,6 +32,7 @@ This Sequence will be used and interacted by the user, The inentory system will 
 ![](inventory_user_relationship.png)
 
 The ID system will allow for easy implementation and readibility for items and updates to items, as well as the implementation of new items
+
 ---
 ## Operations
 
@@ -53,18 +55,21 @@ Search: will search the list using a linear method to find all items containing 
 clear: will clear all items from the inventory dropping them to the ground
 
 get: will select the chosen item for use
+
 ---
 ## Edge cases
 
 when lowering inventory space any items that do not fit in the new space will be drpped
 
 when deleting an item that occurs mutiple times it will prompt the user for the correct one same for get
+
 ---
 ## the use of Sequence
 
 the use of sequence allows for quick removal the top of the list which we be useful when changing inventory size
 
 one constraint is searching will be slower than other methods
+
 ---
 ## Set Operations
 
@@ -85,6 +90,7 @@ union will use get and delete to remove items from the sequence and move them to
 difference will be used to show the differense in inventory, this could be used to show what new items you could get from an enemy or what new items would be valuable to trade for in game
 
 the implementation would be to iterate through the sequence and log all the items then iterate through the other list and print only items that dont appear
+
 ---
 ##  Extension feature
 
@@ -108,12 +114,17 @@ else item.getReference()==legendary
 }
 
 this would allow easy accsess to modifying armor this would run in the character class
+
+this would also play into the theme of an ever changing inventory.
+
+
 ---
 ## UML
 
 ![](UML.png)
 
 ![](user.png)
+
 ---
 ## Trade off
 
@@ -128,6 +139,7 @@ A Hashtable would also not be simple to implement the sort function or other fun
 > -- <cite>Jeffery Rennie</cite>
 
 A Hashtable would also have the potential for a longer insert as my current implementation is to append it to the end it would also be harder to modify the size
+
 ---
 ## implementation of a hash table
 
@@ -142,6 +154,7 @@ I would probe the hash Table using the index when searching for an item or delet
 one major problem is the list would need new indexing often with how my inventory system is able to increase and decrease its max size
 
 overall a hashtable would be a poor fit for the inventory I plan to design
+
 ---
 ## Conclusion
 
@@ -150,9 +163,13 @@ in conclusion using a sequence for my inventrory system would be the best fit fo
 this is due to the amount of size modifications i need for the list while still restrcting the size for the user
 
 the inventory also fits the setting of an everchanging automaton well, which is my main goal for the system
+
 ---
 ## Citations
 
 Rennie, J. (n.d.). Why I avoid using hash tables. most of the programming languages I… | by Jeffrey Rennie | Medium. https://surferjeff.medium.com/why-i-avoid-using-hash-tables-3bf5734fafb6 
 
-Larson, P. (n.d.). Dynamic hash tables | communications of the ACM. Association for Computing Machinery, Digital Library. https://dl.acm.org/doi/abs/10.1145/42404.42410 
+Larson, P. (n.d.). Dynamic hash tables | communications of the ACM. Association for Computing Machinery, Digital Library. https://dl.acm.org/doi/abs/10.1145/42404.42410
+
+Kartik. (2024, November 2) What does “space complexity” mean? GeekforGeeks. https://www.geeksforgeeks.org/dsa/g-fact-86/ 
+
