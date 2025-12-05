@@ -113,7 +113,7 @@ else item.getReference()==legendary
   return 50
 }
 
-this would allow easy accsess to modifying armor this would run in the character class
+this would allow easy access to modifying armor this would run in the character class
 
 this would also play into the theme of an ever changing inventory.
 
