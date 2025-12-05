@@ -115,9 +115,29 @@ else item.getReference()==legendary
 
 ### A hashtable would have had a faster search and delete function, but the rade off would be development time
 
-### A Hashtable would also not be simple to implement the sort function. 
+### A Hashtable would also not be simple to implement the sort function or other functions and methods.
 
-### A Hashtable would also have the potential for a longer insert as my current implementation is to append it to the end it would also b harder to madify the size
+> Undefined behavior is chaos. I don’t want chaos in my software. The better I can predict how my code will behave, the less time I’ll spend debugging it.
+>
+> -- <cite>Jeffery Rennie</cite>
+
+### A Hashtable would also have the potential for a longer insert as my current implementation is to append it to the end it would also be harder to modify the size
+---
+## implementation of a hash table
+
+### If i were to implement a hash table I would change a couple things
+
+### first I would remove the sort function, it would take to long to implement and Would not be worth the hastle to implement it
+
+### my hashtable would be a random index hashtable as I have made one before
+
+
+
+### one major problem is the list would need new indexing often with how my inventory system is able to increase and decrease its max size
+
+### overall a hashtable would be a poor fit for the inventory i plan to design
+
+
 
 https://surferjeff.medium.com/why-i-avoid-using-hash-tables-3bf5734fafb6
 
