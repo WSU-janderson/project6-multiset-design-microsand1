@@ -111,6 +111,18 @@ else item.getReference()==legendary
 ---
 ## Trade off
 
+### I could have chosen to use a hashTable for my multiset which I feel would be more appropiate than a Binary Search Tree.
+
+### A hashtable would have had a faster search and delete function, but the rade off would be development time
+
+### A Hashtable would also not be simple to implement the sort function. 
+
+### A Hashtable would also have the potential for a longer insert as my current implementation is to append it to the end it would also b harder to madify the size
+
+> Quote here.
+>
+> -- <cite>Benjamin Franklin</cite>
+
 https://surferjeff.medium.com/why-i-avoid-using-hash-tables-3bf5734fafb6
 
 https://www.geeksforgeeks.org/dsa/applications-advantages-and-disadvantages-of-binary-search-tree/
